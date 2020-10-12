@@ -6,7 +6,7 @@ The starter code for this gives you two Codable models and a sample of JSON from
 
 The first checkpoint is pretty basic and should look like this:
 
-<img src="https://imgur.com/YlyZNC5.png" width="75%"/>
+<img src="https://imgur.com/YlyZNC5.png" width="50%"/>
 
 
 Your mission for the first checkpoint is to modify ContentView.swift so that it is able to replicate the screenshot above.
