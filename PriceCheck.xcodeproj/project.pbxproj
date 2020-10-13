@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E7D5EE062531EA2500C17A92 /* PriceCheckApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D5EE052531EA2500C17A92 /* PriceCheckApp.swift */; };
 		E7D5EE082531EA2500C17A92 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D5EE072531EA2500C17A92 /* ContentView.swift */; };
 		E7D5EE0A2531EA2600C17A92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7D5EE092531EA2600C17A92 /* Assets.xcassets */; };
 		E7D5EE0D2531EA2600C17A92 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7D5EE0C2531EA2600C17A92 /* Preview Assets.xcassets */; };
@@ -15,11 +14,12 @@
 		E7D5EE302532590500C17A92 /* scan_by_location.json in Resources */ = {isa = PBXBuildFile; fileRef = E7D5EE2F2532590500C17A92 /* scan_by_location.json */; };
 		E7D5EE342532599C00C17A92 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D5EE332532599C00C17A92 /* Helper.swift */; };
 		E7D5EE3725325A7000C17A92 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D5EE3625325A7000C17A92 /* Location.swift */; };
+		E7FA6CBA2536071900587DD4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7FA6CB92536071900587DD4 /* AppDelegate.swift */; };
+		E7FA6CBE253607CF00587DD4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7FA6CBD253607CF00587DD4 /* SceneDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E7D5EE022531EA2500C17A92 /* PriceCheck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PriceCheck.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E7D5EE052531EA2500C17A92 /* PriceCheckApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceCheckApp.swift; sourceTree = "<group>"; };
 		E7D5EE072531EA2500C17A92 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E7D5EE092531EA2600C17A92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E7D5EE0C2531EA2600C17A92 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -28,6 +28,8 @@
 		E7D5EE2F2532590500C17A92 /* scan_by_location.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = scan_by_location.json; sourceTree = "<group>"; };
 		E7D5EE332532599C00C17A92 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 		E7D5EE3625325A7000C17A92 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		E7FA6CB92536071900587DD4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E7FA6CBD253607CF00587DD4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,10 +62,10 @@
 		E7D5EE042531EA2500C17A92 /* PriceCheck */ = {
 			isa = PBXGroup;
 			children = (
+				E7FA6CB8253606F900587DD4 /* Delegates */,
 				E7D5EE2E253258A900C17A92 /* Resources */,
 				E7D5EE222531FE3000C17A92 /* Views */,
 				E7D5EE162531EB6C00C17A92 /* Models */,
-				E7D5EE052531EA2500C17A92 /* PriceCheckApp.swift */,
 				E7D5EE092531EA2600C17A92 /* Assets.xcassets */,
 				E7D5EE0E2531EA2600C17A92 /* Info.plist */,
 				E7D5EE0B2531EA2600C17A92 /* Preview Content */,
@@ -103,6 +105,15 @@
 				E7D5EE332532599C00C17A92 /* Helper.swift */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		E7FA6CB8253606F900587DD4 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				E7FA6CB92536071900587DD4 /* AppDelegate.swift */,
+				E7FA6CBD253607CF00587DD4 /* SceneDelegate.swift */,
+			);
+			path = Delegates;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,9 +188,10 @@
 			files = (
 				E7D5EE082531EA2500C17A92 /* ContentView.swift in Sources */,
 				E7D5EE3725325A7000C17A92 /* Location.swift in Sources */,
-				E7D5EE062531EA2500C17A92 /* PriceCheckApp.swift in Sources */,
 				E7D5EE182531EBB000C17A92 /* PriceScan.swift in Sources */,
+				E7FA6CBA2536071900587DD4 /* AppDelegate.swift in Sources */,
 				E7D5EE342532599C00C17A92 /* Helper.swift in Sources */,
+				E7FA6CBE253607CF00587DD4 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,7 +324,7 @@
 				DEVELOPMENT_TEAM = X94WPSRU4C;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = PriceCheck/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -334,7 +346,7 @@
 				DEVELOPMENT_TEAM = X94WPSRU4C;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = PriceCheck/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
