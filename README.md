@@ -24,4 +24,17 @@ We want you to refactor your code into a `ContentView`, a `LocationView`, and a 
 
 <img src="https://i.imgur.com/3G6h1zr.png" width=45%"/>
 
+**Checkpoint 3**
+
+With your refactored code, we want you to add some navigation so that you can touch a table cell and you will be brought to the scan details view as seen in the two images below:
+
+<img src="https://i.imgur.com/3G6h1zr.png" width=45%"/>
+
+<img src="https://i.imgur.com/kEy1psE.png" width=45%"/>
+
+**Bonus**
+
+If you complete that quickly, work on adding in the tabbed menu options (working, not just visual).
+
+
 Additional instructions about the next checkpoints will be given in class.  This assignment is to be done by every person, but we are going to put you in pairs during class so you have someone to talk out ideas with and instructors will come around to check on you and to assist.
