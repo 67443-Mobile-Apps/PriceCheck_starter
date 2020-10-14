@@ -18,4 +18,10 @@ A couple of notes about this first checkpoint:
   - all we are asking for at first is the item name, nothing else right now.
   - note that per our rule ("It is never acceptable to have an unordered list or table") the sections are listed in alphabetical order, as are the items.  This all in spite of the fact that they are not in alphabetical order in the API output.
 
+**Checkpoint 2**
+
+We want you to refactor your code into a `ContentView`, a `LocationView`, and a `ScanView`.  Once you have done that, edit the `ScanView` such that it appears like the image below, with the price right-aligned and in bold:
+
+<img src="https://i.imgur.com/3G6h1zr.png" width=45%"/>
+
 Additional instructions about the next checkpoints will be given in class.  This assignment is to be done by every person, but we are going to put you in pairs during class so you have someone to talk out ideas with and instructors will come around to check on you and to assist.
