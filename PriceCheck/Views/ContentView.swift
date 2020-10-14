@@ -12,7 +12,15 @@ struct ContentView: View {
     
     let locationScans = Bundle.main.decode([Location].self, from: "scan_by_location.json")
     
-    Text("Heghlu'meH QaQ jajvam")
+    
+
+    List {
+      Section(header: Text("Qapla'"), content: {
+        Text("Heghlu'meH QaQ jajvam")
+      })
+    }
+    
+    
 
   }
 }
